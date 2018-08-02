@@ -1,0 +1,12 @@
+python.exe c:\Python27\PyInstaller-2.1\pyinstaller.py --noconsole --onefile c:\Python27\PyInstaller-2.1\ReverseShell.py
+
+[+] Generate the .spec file.
+[+] Windows: (You want a single EXE file with your data in it, hence --onefile).
+
+python pyinstaller.py --onefile your_main_file.py
+
+[+] Rebuild your package.
+
+python pyinstaller.py your_main_file.spec
+
+[+]Look for your .exe or your .app bundle in the dist directory.

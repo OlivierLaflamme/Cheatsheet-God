@@ -1,0 +1,22 @@
+Useful Networking Cheatsheet
+----------------------------
+
+[+] Setting up an Ethernet bridge in Ubuntu/Kali Linux
+
+# Install bridge-utils
+sudo apt-get install bridge-utils
+
+# Disable network-manager + firewall
+
+# Configuration
+
+ifconfig
+ifconfig eth0 0.0.0.0
+ifconfig eth1 0.0.0.0
+brctl addbr br0
+brctl addif br0 eth0
+brctl addif br0 eth1
+ifconfig mybridge up
+dhclient br0 on devices
+
+sudo tcpdump -i mybridge

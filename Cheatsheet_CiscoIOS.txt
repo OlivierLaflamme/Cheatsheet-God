@@ -1,0 +1,99 @@
+Cisco IOS Command Line Cheatsheet
+---------------------------------
+
+--- Verify Basic Configuration:
+
+Shows information about the switch and its interfaces, RAM, NVRAM, flash, IOS, etc.
+SW1# show version
+
+Shows the current configuration file stored in DRAM.
+SW1# show running-config
+
+Shows the configuration file stored in NVRAM which is used at first boot process.
+SW1# show startup-config
+
+Lists the commands currently held in the history buffer.
+SW1# show history
+
+Shows an overview of all interfaces, their physical status, protocol status and ip address if assigned.
+SW1# show ip interface brief
+
+Shows detailed information about the specified interface, its status, protocol, duplex, speed, encapsulation, last 5 min traffic.
+SW1# show interface vlan 1
+
+Shows the description of all interfaces
+SW1# show interfaces description
+
+Shows the status of all interfaces like connected or not, speed, duplex, trunk or access vlan.
+SW1# show interfaces status
+
+Shows the public encryption key used for SSH.
+SW1# show crypto key mypubkey rsa
+
+Shows information about the leased IP address (when an interface is configured to get IP address via a dhcp server)
+SW1# show dhcp lease
+
+--- Router Modes:
+
+Router>: User mode = Limited to basic monitoring commands
+Router#: Privileged mode (exec-level mode) = Provides access to all other router commands
+Router(config)#: global configuration mode = Commands that affect the entire system
+Router(config-if)#: interface mode = Commands that affect interfaces
+Router(config-subif)#: subinterface mode = Commands that affect subinterfaces
+Router(config-line)#: line mode = Commands that affect in lines modes (console, vty, aux…)
+Router(config-router)#: router configuration mode
+
+--- Changing switch hostname:
+
+Switch(config)# hostname SW1
+
+--- Configuring passwords:
+
+SW1(config)# enable secret cisco    ! MD5 hash
+SW1(config)# enable password notcisco    ! Clear text
+
+--- Securing console port:
+
+SW1(config)# line con 0
+SW1(config-line)# password cisco
+SW1(config-line)# login
+
+--- Securing terminal lines:
+
+SW1(config)# line vty 0 4
+SW1(config-line)# password cisco
+SW1(config-line)# login
+
+--- Encrypting passwords:
+
+SW1(config)# service password-encryption
+
+--- Configuring banners:
+
+SW1(config)# banner motd $
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+UNAUTHORIZED ACCESS IS PROHIBITED
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+$
+
+--- Giving the switch an IP address:
+
+SW1(config)# interface vlan 1
+SW1(config-if)# ip address 172.16.1.11 255.255.255.0    ! or DHCP
+SW1(config-if)# no shutdown
+
+--- Setting the default gateway:
+
+SW1(config)# ip default-gateway 172.16.1.1
+
+--- Saving configuration:
+
+SW1# copy running-config startup-config
+Destination filename [startup-config]?    ! Press enter to confirm file name.
+Building configuration…
+[OK]
+ 
+! Short for write memory.
+SW1# wr
+Building configuration…
+[OK]

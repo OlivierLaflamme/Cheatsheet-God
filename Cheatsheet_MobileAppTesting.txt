@@ -1,0 +1,68 @@
+﻿http://pen-testing.sans.org/blog/pen-testing/2013/12/02/mobile-device-tips-tricks-and-resources
+
+------------------------------------------ Mobile Application Test Notes (iPhone)
+
+
+Prepping Device and Application:
+
+[+] Jailbreak iPhone/iPad - Green Poison / Absinthe 2.04
+[+] Enable SSH on iPhone/iPad
+[+] Install iFunbox to install the application (http://www.i-funbox.com)
+[+] Connect device to lab wireless network
+[+] Add web proxy settings - IP address of attacking machine port 8080
+[+] Ensure connection and SSH is working
+
+
+Prepping Burp Suite:
+
+[+] Open Burp Suite and navigate to Proxy->Options,
+	[-] Edit proxy listeners – enter ‘port’ as 8080, disable ‘loopback only’ and select ‘support invisible’.
+
+[+] Download and install burp certificate (.crt) onto ipad.
+
+Mobile Application Penetration Testing:
+
+[+] Browse the following Directory for insecure storage
+	[-]  /private/var/mobile/applications/
+
+
+Notes:
+
+[+] Application file type - x.ipa
+
+[+] Easy way:
+
+- Place attacking machine and apple device on wireless network with app installed.
+- Email burps .cer to apple device and install
+- Start burp and disable firewall on listening machine.
+- Change proxy settings on apple device to point to listening burp machine/port.
+
+
+------------------------------------------ Mobile Application Test Notes (Android)
+
+[+] Create a virtual device:
+	[-] android avd
+
+[+] Start the emulator:
+	[-] emulator –avd testavd
+
+[+] Install the application:
+	[-] adb install <path of the .apk file>
+
+[+] Open Burp Suite and navigate to Proxy->Options,
+	[-] Edit proxy listeners – enter ‘port’ as 8080, disable ‘loopback only’ and select ‘support invisible’.
+
+[+] Start the emulator and proxy:
+	[-] emulator –avd testavd –http-proxy http://localhost:8080
+
+[+] Download and install burp certificate (.crt) onto the emulator using the push shell command.
+
+
+Notes:
+
+[+] Application file type - x.apk
+
+Install Certs: http://www.realmb.com/droidCert/
+SQLite Database Browser: http://sourceforge.net/projects/sqlitebrowser/?source=pdlp
+
+http://www.mcafee.com/uk/resources/white-papers/foundstone/wp-pen-testing-android-apps.pdf

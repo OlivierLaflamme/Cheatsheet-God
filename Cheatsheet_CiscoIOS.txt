@@ -33,6 +33,9 @@ SW1# show crypto key mypubkey rsa
 Shows information about the leased IP address (when an interface is configured to get IP address via a dhcp server)
 SW1# show dhcp lease
 
+Show the router's routing table. List of all networks that the router can reach.
+Router# show ip route
+
 --- Router Modes:
 
 Router>: User mode = Limited to basic monitoring commands

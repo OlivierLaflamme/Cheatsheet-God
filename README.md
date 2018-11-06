@@ -4,5 +4,5 @@ Collection of tips and how-to's for penetration testing, preping for the OSCP or
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
+* Hat tip to anyone who ever contributed
 * Inspiration: nothing being in one place

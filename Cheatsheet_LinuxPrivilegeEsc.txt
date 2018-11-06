@@ -356,9 +356,11 @@ find / -name netcat*
 find / -name tftp* 
 find / -name ftp 
 
-### Linux Privilege Escalation using Sudo Rights
-NOTE:
 
+
+
+##### Linux Privilege Escalation using Sudo Rights #####
+NOTE:
 (ALL:ALL) can also represent as (ALL)
 If you found (root) in place of (ALL:ALL) then it denotes that user can run the command as root.
 If nothing is mention for user/group then it means sudo defaults to the root user.

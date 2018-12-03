@@ -28,4 +28,9 @@ Feel free to also open an issue with any requests!
 ## Acknowledgments
 
 * Hat tip to anyone who ever contributed
+
+&nbsp;
+-> Much thanks to MrTsRex for Cheatsheet_Windows.txt
+&nbsp;
+
 * Inspiration: Making a cheatsheet god would be proud of using. 

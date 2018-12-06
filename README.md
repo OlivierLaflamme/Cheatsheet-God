@@ -1,4 +1,4 @@
-# Cheatsheet-God
+# 📂 Cheatsheet-God 📂
 
 *Do you have a million bookmarks saved? Do all of those bookmarks contain unique information? Github repos starred for later?*
 
@@ -17,20 +17,26 @@ All contributions are wellcomed! If you feel like you can contribute your knowle
 
 Here's what you do:
 
-1. Fork this repository
-2. Push some code to your fork
-3. Come back to this repository and open a PR
-4. After some review, get that PR merged to master
-5. Make sure to credit yourself! You ROCK!
+1. Create Issue Request lable as `enhancement`
+2. Fork this repository
+3. Push some code to your fork
+4. Come back to this repository and open a PR
+5. After some review, get that PR merged to master
+6. Make sure to update Issue Request so that I can credit you! You ROCK!
 
-Feel free to also open an issue with any requests!
+Feel free to also open an issue with any questions, help wanted, or requests!
 
 ## Acknowledgments
 
-* Hat tip to anyone who ever contributed
+* Hat tip to anyone who ever contributed :shipit:
+
 
 &nbsp;
--> Much thanks to MrTsRex for Cheatsheet_Windows.txt
+-> Much thanks to [MrTsRex](https://github.com/MrTsRex) for Cheatsheet_Windows.txt enumerating Windows version vulnerabilities
+&nbsp; 
+
+&nbsp;
+-> Much thanks to [susmithaaa](https://github.com/susmithaaa) for his contribution to Cheatsheet_PenTesting.txt password attacks section 
 &nbsp;
 
 * Inspiration: Making a cheatsheet god would be proud of using. 

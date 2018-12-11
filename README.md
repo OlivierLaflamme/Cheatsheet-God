@@ -6,11 +6,11 @@
 
 Well this is a compilation of all of these resources into a single repo known as **Cheatsheet-God**. No more need for bookmarked links. No need to open a web browser. Its all here for you.
 
-This is a collection of resources, scripts and easy to follow how-to's. I have been gathering (and continuing to gather) in preparation for the OSCP as well as for general pentesting. Feel free to use however you want to help you in your studies/reference material.
+This is a collection of resources, scripts and easy to follow how-to's. I have been gathering (and continuing to gather) in preparation for the OSCP as well as for general pentesting. Feel free to use however you want! 
 
 &nbsp;
 
-All contributions are welcomed! If you feel like you can contribute your knowledge and help make these documents more complete, please merge it over! I'll acknowledge you.
+All contributions are welcomed! If you feel like you can contribute and make these documents more complete, please do! I'll acknowledge you.
 
 &nbsp;
 

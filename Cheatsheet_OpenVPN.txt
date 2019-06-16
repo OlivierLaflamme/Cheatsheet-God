@@ -1,0 +1,18 @@
+[+] Connect to OpenVPN with preconfigured username/password:
+
+[-] Step 1 - 
+Create a text file with two lines, first line containing your username and second line containing your password. 
+Save this file, for eg., as up.txt.
+
+[-] Step 2 - 
+Create a file named, for eg., connect.sh and save it to the same folder as up.txt from Step 1.
+and add the following line to it - 
+
+openvpn --config YourOpenVPNConnectionFile.ovpn --auth-user-pass up.txt
+
+[-] Step 3 - 
+After the Step 1 and 2 are done. Every time you need to connect to your VPN, just open a terminal, and type the following command - 
+
+sh connect.sh
+
+And Kudos, your connection would be established.

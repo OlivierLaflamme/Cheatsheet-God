@@ -1,7 +1,8 @@
 # 📂 Cheatsheet-God 📂
+![INFO](https://img.shields.io/badge/Cheatsheet-OSCP%2FPTX-red) ![MIT](https://img.shields.io/badge/MIT-Licence-blue) ![]()
 
 ```diff
-+ HUGE 4000+ Line Update Comming ETD end of June!!!
++ HUGE 4000+ Line Update Comming ETD end of Late October 4 real this time!!!
 
 ```
 *Do you have a million bookmarks saved? Do all of those bookmarks contain unique information? Github repos starred for later?*

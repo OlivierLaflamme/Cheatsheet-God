@@ -13,7 +13,7 @@ Well this is a compilation of all of these resources into a single repo known as
 
 This is a collection of resources, scripts and easy to follow how-to's. I have been gathering (and continuing to gather) in preparation for the OSCP as well as for general pentesting. Feel free to use however you want! 
 
-&nbsp;
+
 
 All contributions are welcomed! If you feel like you can contribute and make these documents more complete, please do! I'll acknowledge you.
 

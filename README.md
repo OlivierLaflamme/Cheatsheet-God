@@ -1,5 +1,5 @@
 # 📂 Cheatsheet-God 📂 
-![INFO](https://img.shields.io/badge/Cheatsheet-OSCP%2FPTX-red) ![CC](https://img.shields.io/badge/cc-by-sa-4.0-Licence-blue) ![STARS](https://img.shields.io/github/stars/OlivierLaflamme/Cheatsheet-God?style=social) ![COMMIT](https://img.shields.io/github/last-commit/OlivierLaflamme/Cheatsheet-God)
+![INFO](https://img.shields.io/badge/Cheatsheet-OSCP%2FPTX-red) ![CC](https://img.shields.io/badge/license-cc--by--sa--4.0--Licence-blue) ![STARS](https://img.shields.io/github/stars/OlivierLaflamme/Cheatsheet-God?style=social) ![COMMIT](https://img.shields.io/github/last-commit/OlivierLaflamme/Cheatsheet-God)
 
 
 ```diff

@@ -17,7 +17,7 @@ This is a collection of resources, scripts and easy to follow how-to's. I have b
 
 All contributions are welcomed! If you feel like you can contribute and make these documents more complete, please do! I'll acknowledge you.
 
-&nbsp;
+
 
 ### If you would like to improve anything, and add to this repo, PLEASE DO!
 
@@ -45,5 +45,26 @@ Feel free to also open an issue with any questions, help wanted, or requests!
 -> Much thanks to [susmithaaa](https://github.com/susmithaaa) for his contribution to Cheatsheet_PenTesting.txt password attacks section 
 &nbsp;
 
+## Articles I'd reccomend you check out 
+Amazing Blog
+[*http://hackingandsecurity.blogspot.com*](http://hackingandsecurity.blogspot.com)
 
+OSCP Journey
+[*https://scriptkidd1e.wordpress.com/oscp-journey/*](https://scriptkidd1e.wordpress.com/oscp-journey/)
 
+Offensive Security PWB and OSCP My Experience
+[*http://www.securitysift.com/offsec-pwb-oscp/*](http://www.securitysift.com/offsec-pwb-oscp/)
+
+Down with OSCP
+[*http://ch3rn0byl.com/down-with-oscp-yea-you-know-me/*](http://ch3rn0byl.com/down-with-oscp-yea-you-know-me/)
+
+Jolly Frogs - Tech Exams (Very thorough)
+[*http://www.techexams.net/forums/security-certifications/110760-oscp-jollyfrogs-tale.html*](http://www.techexams.net/forums/security-certifications/110760-oscp-jollyfrogs-tale.html)
+
+    
+## Get Some Practice  
+Good Practice Machines : Tr0ll-1  | Tr0ll-2 | Lord of the Root | Sickos 
+
+[*https://www.vulnhub.com/*](https://www.vulnhub.com/)
+
+[*https://www.root-me.org/*](https://www.root-me.org/)

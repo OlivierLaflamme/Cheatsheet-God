@@ -1,5 +1,5 @@
 # 📂 Cheatsheet-God 📂
-![INFO](https://img.shields.io/badge/Cheatsheet-OSCP%2FPTX-red) ![MIT](https://img.shields.io/badge/MIT-Licence-blue) ![]()
+![INFO](https://img.shields.io/badge/Cheatsheet-OSCP%2FPTX-red) ![CC](https://img.shields.io/badge/cc-by-sa-4.0-Licence-blue) ![STARS](https://img.shields.io/github/stars/OlivierLaflamme/Cheatsheet-God?style=social) ![COMMIT](https://img.shields.io/github/last-commit/OlivierLaflamme/Cheatsheet-God)
 
 ```diff
 + HUGE 4000+ Line Update Comming ETD end of Late October 4 real this time!!!

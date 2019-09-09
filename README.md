@@ -90,6 +90,8 @@ Feel free to also open an issue with any questions, help wanted, or requests!
 ## Get Some Practice  
 Good Practice Machines : Tr0ll-1  | Tr0ll-2 | Lord of the Root | Sickos 
 
-[*https://www.vulnhub.com/*](https://www.vulnhub.com/)
+[VulnHub](https://www.vulnhub.com/)
 
-[*https://www.root-me.org/*](https://www.root-me.org/)
+[Root.me](https://www.root-me.org/)
+
+[Penetration Testing Practice Lab / Vulnerable Apps/Systems ](https://www.amanhardikar.com/mindmaps/Practice.html)

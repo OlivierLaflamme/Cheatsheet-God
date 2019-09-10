@@ -84,14 +84,18 @@ Feel free to also open an issue with any questions, help wanted, or requests!
 
 -   0Day Security Enumeration Guide
     [*http://www.0daysecurity.com/penetration-testing/enumeration.html*](http://www.0daysecurity.com/penetration-testing/enumeration.html)
-
-
+    
     
 ## Get Some Practice  
-Good Practice Machines : Tr0ll-1  | Tr0ll-2 | Lord of the Root | Sickos 
+<span><li>
+ [Attack Defense 1000+ Labs!](https://attackdefense.com/)<br>
+ [VulnHub](https://www.vulnhub.com/)<br>
+ [Root.me](https://www.root-me.org/)<br>
+ [Penetration Testing Practice Lab / Vulnerable Apps/Systems ](https://www.amanhardikar.com/mindmaps/Practice.html)<br>
+ [Vulhub](https://vulhub.org/)<br>
+ [Vulapps](http://vulapps.evalbug.com/)<br>
+ [Vulnspy](https://www.vulnspy.com/)<br>
+ [Upload-Labs](https://github.com/c0ny1/upload-labs)<br>
+</li></span>
 
-[VulnHub](https://www.vulnhub.com/)
 
-[Root.me](https://www.root-me.org/)
-
-[Penetration Testing Practice Lab / Vulnerable Apps/Systems ](https://www.amanhardikar.com/mindmaps/Practice.html)

@@ -87,7 +87,7 @@ Feel free to also open an issue with any questions, help wanted, or requests!
     
     
 ## Get Some Practice  
-<span><li>
+
  [Attack Defense 1000+ Labs!](https://attackdefense.com/)<br>
  [VulnHub](https://www.vulnhub.com/)<br>
  [Root.me](https://www.root-me.org/)<br>
@@ -96,6 +96,5 @@ Feel free to also open an issue with any questions, help wanted, or requests!
  [Vulapps](http://vulapps.evalbug.com/)<br>
  [Vulnspy](https://www.vulnspy.com/)<br>
  [Upload-Labs](https://github.com/c0ny1/upload-labs)<br>
-</li></span>
 
 

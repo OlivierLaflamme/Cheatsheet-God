@@ -45,7 +45,7 @@ Feel free to also open an issue with any questions, help wanted, or requests!
 -> Much thanks to [susmithaaa](https://github.com/susmithaaa) for his contribution to Cheatsheet_PenTesting.txt password attacks section 
 &nbsp;
 
-## Essentials / Articles I'd Reccomend You Check Out 
+## Helpful Links / Articles I'd Reccomend You Check Out 
 -   Amazing Blog
     [*http://hackingandsecurity.blogspot.com*](http://hackingandsecurity.blogspot.com)
 
@@ -67,6 +67,9 @@ Feel free to also open an issue with any questions, help wanted, or requests!
     [*http://www.securityfocus.com/*](http://www.securityfocus.com/)
 -   Vuln Hub - Vulnerable by design
     [*https://www.vulnhub.com/*](https://www.vulnhub.com/)
+
+-   Offensive Security’s PWB and OSCP — My Experience  
+    [*http://www.securitysift.com/offsec-pwb-oscp/*](http://www.securitysift.com/offsec-pwb-oscp/)
 
 -   Exploit Exercises
     [*https://exploit-exercises.com/*](https://exploit-exercises.com/)
@@ -96,6 +99,88 @@ Feel free to also open an issue with any questions, help wanted, or requests!
  [Vulapps](http://vulapps.evalbug.com/)<br>
  [Vulnspy](https://www.vulnspy.com/)<br>
  [Upload-Labs](https://github.com/c0ny1/upload-labs)<br>  
- 
 
 
+## More Cheat Sheets
+Penetration Tools Cheat Sheet  
+https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/  
+
+Pen Testing Bookmarks  
+https://github.com/kurobeats/pentest-bookmarks/blob/master/BookmarksList.md  
+
+OSCP Cheatsheets  
+https://github.com/slyth11907/Cheatsheets  
+
+CEH Cheatsheet  
+https://scadahacker.com/library/Documents/Cheat_Sheets/Hacking%20-%20CEH%20Cheat%20Sheet%20Exercises.pdf  
+
+Net Bios Scan Cheat Sheet  
+https://highon.coffee/blog/nbtscan-cheat-sheet/  
+
+Reverse Shell Cheat Sheet  
+https://highon.coffee/blog/reverse-shell-cheat-sheet/  
+
+NMap Cheat Sheet  
+https://highon.coffee/blog/nmap-cheat-sheet/  
+
+Linux Commands Cheat Sheet  
+https://highon.coffee/blog/linux-commands-cheat-sheet/  
+
+Security Hardening CentO 7  
+https://highon.coffee/blog/security-harden-centos-7/  
+
+MetaSploit Cheatsheet  
+https://www.sans.org/security-resources/sec560/misc_tools_sheet_v1.pdf  
+
+Google Hacking Database:  
+https://www.exploit-db.com/google-hacking-database/  
+
+Windows Assembly Language Mega Primer  
+http://www.securitytube.net/groups?operation=view&groupId=6  
+
+Linux Assembly Language Mega Primer  
+http://www.securitytube.net/groups?operation=view&groupId=5  
+
+Metasploit Cheat Sheet  
+https://www.sans.org/security-resources/sec560/misc_tools_sheet_v1.pdf  
+
+NetCat  
+http://www.sans.org/security-resources/sec560/netcat_cheat_sheet_v1.pdf  
+http://www.secguru.com/files/cheatsheet/nessusNMAPcheatSheet.pdf  
+http://sbdtools.googlecode.com/files/hping3_cheatsheet_v1.0-ENG.pdf  
+http://sbdtools.googlecode.com/files/Nmap5%20cheatsheet%20eng%20v1.pdf  
+http://www.sans.org/security-resources/sec560/misc_tools_sheet_v1.pdf  
+http://rmccurdy.com/scripts/Metasploit%20meterpreter%20cheat%20sheet%20reference.html  
+http://h.ackack.net/cheat-sheets/netcat  
+
+
+## Collection of multiple types of lists used during security assessments. List types include usernames, passwords, URLs, sensitive data grep strings, fuzzing payloads
+
+https://github.com/danielmiessler/SecLists
+
+Security Tube  
+http://www.securitytube.net/  
+
+0Day Security Enumeration Guide  
+http://www.0daysecurity.com/penetration-testing/enumeration.html  
+
+Github IO Book - Pen Testing Methodology  
+https://monkeysm8.gitbooks.io/pentesting-methodology/  
+
+
+## Windows Privledge Escalation  
+
+Fuzzy Security 
+http://www.fuzzysecurity.com/tutorials/16.html  
+
+accesschk.exe   
+https://technet.microsoft.com/en-us/sysinternals/bb664922  
+
+Windows Priv Escalation For Pen Testers 
+https://pentest.blog/windows-privilege-escalation-methods-for-pentesters/
+
+Elevating Privileges to Admin and Further   
+https://hackmag.com/security/elevating-privileges-to-administrative-and-further/  
+
+Transfer files to windows machines   
+https://blog.netspi.com/15-ways-to-download-a-file/  

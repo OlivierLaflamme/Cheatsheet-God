@@ -3,7 +3,7 @@
 
 
 ```diff
-+ HUGE 4000+ Line Update Comming ETD end of Late October 4 real this time!!!
++ UPDATE: Added my huge link of bookmarks / references ❤️ love 
 
 ```
 *Do you have a million bookmarks saved? Do all of those bookmarks contain unique information? Github repos starred for later?*

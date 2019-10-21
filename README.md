@@ -101,11 +101,6 @@ Feel free to also open an issue with any questions, help wanted, or requests!
  [Upload-Labs](https://github.com/c0ny1/upload-labs)<br>  
 
 
-
-------------------------------------------------------------------------------------------------------------
-This needed to be added - My personal list 
-------------------------------------------------------------------------------------------------------------
-
 ## BLOGS   
 Http://carnal0wnage.blogspot.com/
 Http://www.mcgrewsecurity.com/

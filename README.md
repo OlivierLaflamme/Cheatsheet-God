@@ -696,9 +696,5 @@ Http://www.cs.ucsb.edu/~adoupe/static/black-box-scanners-dimva2010.pdf
 http://www.spy-hunter.com/Database_Pen_Testing_ISSA_March_25_V2.pdf
 Http://perishablepress.com/press/2006/01/10/stupid-htaccess-tricks/
 
-## More Cheat Sheets Like This One
-https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/    
-https://github.com/kurobeats/pentest-bookmarks/blob/master/BookmarksList.md    
-https://github.com/slyth11907/Cheatsheets   
-https://scadahacker.com/library/Documents/Cheat_Sheets/Hacking%20-%20CEH%20Cheat%20Sheet%20Exercises.pdf  
+
 

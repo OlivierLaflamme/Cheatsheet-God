@@ -1,5 +1,11 @@
-![LogoMakr_2XDNVC](https://user-images.githubusercontent.com/25066959/67897219-5128a480-fb34-11e9-8cca-423a9dd6973f.png)  
- ![STARS](https://img.shields.io/github/stars/OlivierLaflamme/Cheatsheet-God?style=social) ![INFO](https://img.shields.io/badge/Cheatsheet-OSCP%2FPTX-red) ![CC](https://img.shields.io/badge/license-cc--by--sa--4.0--Licence-blue) ![COMMIT](https://img.shields.io/github/last-commit/OlivierLaflamme/Cheatsheet-God)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/25066959/67897219-5128a480-fb34-11e9-8cca-423a9dd6973f.png" width="256" title="Github Logo">
+ 
+![STARS](https://img.shields.io/github/stars/OlivierLaflamme/Cheatsheet-God?style=social) 
+![INFO](https://img.shields.io/badge/Cheatsheet-OSCP%2FPTX-red) 
+![CC](https://img.shields.io/badge/license-cc--by--sa--4.0--Licence-blue) 
+![COMMIT](https://img.shields.io/github/last-commit/OlivierLaflamme/Cheatsheet-God)
+
 ```diff
 + UPDATE: Added my huge link of bookmarks / references ❤️  
 
@@ -43,49 +49,6 @@ Feel free to also open an issue with any questions, help wanted, or requests!
 -> Much thanks to [susmithaaa](https://github.com/susmithaaa) for his contribution to Cheatsheet_PenTesting.txt password attacks section 
 &nbsp;
 
-## Helpful Links / Articles I'd Reccomend You Check Out 
--   Amazing Blog
-    [*http://hackingandsecurity.blogspot.com*](http://hackingandsecurity.blogspot.com)
-
--   OSCP Journey
-    [*https://scriptkidd1e.wordpress.com/oscp-journey/*](https://scriptkidd1e.wordpress.com/oscp-journey/)
-
--   Offensive Security PWB and OSCP My Experience
-    [*http://www.securitysift.com/offsec-pwb-oscp/*](http://www.securitysift.com/offsec-pwb-oscp/)
-
--   Down with OSCP
-    [*http://ch3rn0byl.com/down-with-oscp-yea-you-know-me/*](http://ch3rn0byl.com/down-with-oscp-yea-you-know-me/)
-
--   Jolly Frogs - Tech Exams (Very thorough)
-    [*http://www.techexams.net/forums/security-certifications/110760-oscp-jollyfrogs-tale.html*](http://www.techexams.net/forums/security-certifications/110760-oscp-jollyfrogs-tale.html)
-
--   Exploit-db
-    [*https://www.exploit-db.com/*](https://www.exploit-db.com/)
--   SecurityFocus - Vulnerability database
-    [*http://www.securityfocus.com/*](http://www.securityfocus.com/)
--   Vuln Hub - Vulnerable by design
-    [*https://www.vulnhub.com/*](https://www.vulnhub.com/)
-
--   Offensive Security’s PWB and OSCP — My Experience  
-    [*http://www.securitysift.com/offsec-pwb-oscp/*](http://www.securitysift.com/offsec-pwb-oscp/)
-
--   Exploit Exercises
-    [*https://exploit-exercises.com/*](https://exploit-exercises.com/)
-
--   SecLists - collection of multiple types of lists used during
-    security assessments. List types include usernames, passwords, URLs,
-    sensitive data grep strings, fuzzing payloads
-    [*https://github.com/danielmiessler/SecLists*](https://github.com/danielmiessler/SecLists)
-
--   Security Tube
-    [*http://www.securitytube.net/*](http://www.securitytube.net/)
-
--   Metasploit Unleashed - free course on how to use Metasploit
-    [*https://www.offensive-security.com/metasploit-unleashed*](https://www.offensive-security.com/metasploit-unleashed/)*/*
-
--   0Day Security Enumeration Guide
-    [*http://www.0daysecurity.com/penetration-testing/enumeration.html*](http://www.0daysecurity.com/penetration-testing/enumeration.html)
-    
     
 ## Get Some Practice  
  [Hack The Box](https://www.hackthebox.eu/)  
@@ -100,6 +63,11 @@ Feel free to also open an issue with any questions, help wanted, or requests!
 
 
 ## BLOGS   
+https://scriptkidd1e.wordpress.com/oscp-journey/  
+http://www.securitysift.com/offsec-pwb-oscp/  
+http://ch3rn0byl.com/down-with-oscp-yea-you-know-me/  
+http://www.techexams.net/forums/security-certifications/110760-oscp-jollyfrogs-tale.html  
+http://hackingandsecurity.blogspot.com   
 Http://carnal0wnage.blogspot.com/  
 Http://www.mcgrewsecurity.com/  
 Http://www.gnucitizen.org/blog/  

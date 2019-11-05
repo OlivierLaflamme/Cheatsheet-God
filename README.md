@@ -2,9 +2,12 @@
   <img src="https://user-images.githubusercontent.com/25066959/67897219-5128a480-fb34-11e9-8cca-423a9dd6973f.png" width="256" title="Github Logo">
  
 ![STARS](https://img.shields.io/github/stars/OlivierLaflamme/Cheatsheet-God?style=social) 
+![FORKS](https://img.shields.io/github/forks/OlivierLaflamme/Cheatsheet-God?style=social)
 ![INFO](https://img.shields.io/badge/Cheatsheet-OSCP%2FPTX-red) 
 ![CC](https://img.shields.io/badge/license-cc--by--sa--4.0--Licence-blue) 
 ![COMMIT](https://img.shields.io/github/last-commit/OlivierLaflamme/Cheatsheet-God)
+![SIZE](https://img.shields.io/github/repo-size/OlivierLaflamme/Cheatsheet-God)
+
 
 ```diff
 + UPDATE: Added my huge link of bookmarks / references ❤️  

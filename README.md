@@ -198,7 +198,7 @@ Http://www.my-ip-neighbors.com/
 Http://www.shodanhq.com/  
 Http://www.exploit-db.com/google-dorks/  
 Http://www.hackersforcharity.org/ghdb/  
-EXPLOITS AND ADVISORIES
+EXPLOITS AND ADVISORIES   
 Http://www.exploit-db.com/  
 Http://www.cvedetails.com/  
 Http://www.packetstormsecurity.org/  
@@ -211,8 +211,7 @@ Http://secdocs.lonerunners.net/
 http://www.phenoelit-us.org/whatSAP/index.html  
 Http://secunia.com/  
 Http://cve.mitre.org/  
-CHEATSHEETS AND SYNTAX
-Http://cirt.net/ports_dl.php?export=services  
+CHEATSHEETS AND SYNTAX   
 Http://www.cheat-sheets.org/  
 Http://blog.securitymonks.com/2009/08/15/whats-in-your-folder-security-cheat-sheets/  
 ## AGILE HACKING  

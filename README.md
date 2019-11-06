@@ -148,7 +148,8 @@ Http://www.irongeek.com/i.php?page=videos/aide-winter-2011
 Http://avondale.good.net/dl/bd/  
 Http://achtbaan.nikhef.nl/27c3-stream/releases/mkv/  
 http://www.youtube.com/user/ChRiStIaAn008  
-http://www.youtube.com/user/HackingCons  
+http://www.youtube.com/user/HackingCons
+https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA
 ## METHODOLOGIES  
 http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html  
 http://www.pentest-standard.org/index.php/Main_Page  

@@ -52,7 +52,12 @@ Feel free to also open an issue with any questions, help wanted, or requests!
 -> Much thanks to [susmithaaa](https://github.com/susmithaaa) for his contribution to Cheatsheet_PenTesting.txt password attacks section 
 &nbsp;
 
-    
+## More 
+#### WeChat Official Account
+A_Can_Of_Tuna  
+![Webp net-resizeimage](https://user-images.githubusercontent.com/25066959/68775780-0c554100-05fd-11ea-8ed2-3d7d6ff37576.jpg)
+
+
 ## Get Some Practice  
  [Hack The Box](https://www.hackthebox.eu/)  
  [Attack Defense 1000+ Labs!](https://attackdefense.com/)<br>

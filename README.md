@@ -154,6 +154,12 @@ Http://avondale.good.net/dl/bd/
 Http://achtbaan.nikhef.nl/27c3-stream/releases/mkv/  
 http://www.youtube.com/user/ChRiStIaAn008  
 http://www.youtube.com/user/HackingCons  
+https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA
+https://www.youtube.com/channel/UCCkVMojdBWS-JtH7TliWkVg
+https://www.youtube.com/channel/UCW6MNdOsqv2E9AjQkv9we7A
+https://www.youtube.com/channel/UCFmjA6dnjv-phqrFACyI8tw
+https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w
+https://www.youtube.com/user/RootOfTheNull
 ## METHODOLOGIES  
 http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html  
 http://www.pentest-standard.org/index.php/Main_Page  

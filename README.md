@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/25066959/67897219-5128a480-fb34-11e9-8cca-423a9dd6973f.png" width="256" title="Github Logo">
- 
+
+[![HitCount](http://hits.dwyl.io/OlivierLaflamme/Cheatsheet-God.svg)](http://hits.dwyl.io/OlivierLaflamme/Cheatsheet-God)
 ![STARS](https://img.shields.io/github/stars/OlivierLaflamme/Cheatsheet-God?style=social) 
 ![FORKS](https://img.shields.io/github/forks/OlivierLaflamme/Cheatsheet-God?style=social)
 ![INFO](https://img.shields.io/badge/Cheatsheet-OSCP%2FPTX-red) 

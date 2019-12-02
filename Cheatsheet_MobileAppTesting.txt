@@ -40,6 +40,24 @@ Notes:
 
 ------------------------------------------ Mobile Application Test Notes (Android)
 
+Prepping the application
+(After Android Nougat, Apps need to repackaged since they don't trust user certificates by default)
+- https://android-developers.googleblog.com/2016/07/changes-to-trusted-certificate.html
+
+[+] apktool d <path of the .apk file>
+[+] Update AndroidManifest.xml
+	[-] Add android:networkSecurityConfig="@xml/network_security_config" to application tag in xml
+[+] Add network_security_config.xml to res/xml folder
+	[-] "Trusting user-added CAs for all secure connections" section in 
+		https://android-developers.googleblog.com/2016/07/changes-to-trusted-certificate.html
+[+] Repackage the application 
+	[-] apktool b unpacked_apk_folder -o <output path to new apk file>
+[+] Signing the application
+	[-] Create a keystore using keytool
+	[-] jarsigner -keystore <path to your keystore> -storepass <password> -keypass <password> <path to apk> android
+
+Creating an emulator and installing the application
+
 [+] Create a virtual device:
 	[-] android avd
 

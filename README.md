@@ -52,6 +52,11 @@ Feel free to also open an issue with any questions, help wanted, or requests!
 -> Much thanks to [susmithaaa](https://github.com/susmithaaa) for his contribution to Cheatsheet_PenTesting.txt password attacks section 
 &nbsp;
 
+&nbsp;
+-> Much thanks to [akshaycbor](https://github.com/akshaycbor) for his contribution to Cheatsheet_MobileAppTesting.txt regarding apk repackaging instructions
+&nbsp;
+
+
 ## More 
 #### WeChat Official Account
 A_Can_Of_Tuna  

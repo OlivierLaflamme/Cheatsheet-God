@@ -7,7 +7,6 @@
 ![CC](https://img.shields.io/badge/license-cc--by--sa--4.0--Licence-blue) 
 ![COMMIT](https://img.shields.io/github/last-commit/OlivierLaflamme/Cheatsheet-God)
 ![SIZE](https://img.shields.io/github/repo-size/OlivierLaflamme/Cheatsheet-God)
-[![HitCount](http://hits.dwyl.io/OlivierLaflamme/Cheatsheet-God.svg)](http://hits.dwyl.io/OlivierLaflamme/Cheatsheet-God)
 
 ```diff
 + UPDATE: Added my huge link of bookmarks / references ❤️  

@@ -536,14 +536,10 @@ Http://gse-compliance.blogspot.com/2008/07/netcat.html
 Http://www.justanotherhacker.com/projects/graudit.html  
 Http://code.google.com/p/javasnoop/  
 ## FIREFOX ADDONS  
-Https://addons.mozilla.org/id/firefox/collections/byrned/pentesting/?page=8  
-https://addons.mozilla.org/en-US/firefox/addon/osvdb/  
-https://addons.mozilla.org/en-US/firefox/addon/packet-storm-search-plugin/  
-https://addons.mozilla.org/en-US/firefox/addon/default-passwords-cirtne-58786/  
-https://addons.mozilla.org/en-US/firefox/addon/offsec-exploit-db-search/  
-https://addons.mozilla.org/en-US/firefox/addon/oval-repository-search-plugin/   
-https://addons.mozilla.org/en-US/firefox/addon/cve-dictionary-search-plugin/  
-https://addons.mozilla.org/en-US/firefox/addon/hackbar/  
+https://addons.mozilla.org/en-US/firefox/addon/wappalyzer/?src=collection
+https://addons.mozilla.org/en-US/firefox/addon/web-developer/?src=collection
+https://addons.mozilla.org/en-CA/firefox/addon/cookie-quick-manager/
+https://addons.mozilla.org/en-CA/firefox/addon/hackbartool/  
 ## TOOL LISTINGS  
 Http://packetstormsecurity.org/files/tags/tool  
 http://tools.securitytube.net/index.php?title=Main_Page  

@@ -132,3 +132,15 @@ Use a bash loop to find the IP address behind each host:
 for url in $(cat list.txt); do host $url; done
  
  
+[+] Condition Onliner
+
+
+any command && if work || if not work 
+type -p massdns && massdns -r resolver.txt -t A -o S sub.txt -w sub.mass || echo "MassDns not installed"
+
+
+[+] Condition Onliner with multiple action 
+
+
+any command && { if work; also this; also this } || { if not work; also this; also this }
+type -p massdns && { massdns -r resolver.txt -t A -o S sub.txt -w sub.mass; cat sub.mass } || { echo "MassDns not installed"; echo "Install MassDns" }

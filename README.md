@@ -73,6 +73,10 @@ A_Can_Of_Tuna
  [Vulnspy](https://www.vulnspy.com/)<br>
  [Upload-Labs](https://github.com/c0ny1/upload-labs)<br>
  [TryHackMe](https://tryhackme.com/)<br>
+ [HackThisSite](https://www.hackthissite.org/)<br>
+ [PentesterLab](https://pentesterlab.com/exercises)<br>
+ [HellBound Hackers](https://hbh.sh/home)<br>
+ [PortSwigger Web Security Academy Labs](https://portswigger.net/web-security)<br>
 
 ## BLOGS   
 https://scriptkidd1e.wordpress.com/oscp-journey/  

@@ -16,3 +16,13 @@ PassiveRecon
 Wappalyzer
 Firebug
 HackBar
+
+Security Distributions
+----------------------
+
+- NullSec Linux (https://github.com/bad-antics/nullsec-linux):
+Security-focused distribution with 135+ pentesting tools.
+Includes specialized editions: Cloud, IoT, Automotive, Forensics.
+AI/ML security suite built-in.
+Open-source alternative to Kali/Parrot.
+

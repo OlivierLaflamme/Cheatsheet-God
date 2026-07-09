@@ -175,6 +175,11 @@ https://www.youtube.com/channel/UCMACXuWd2w6_IEGog744UaA
 
 - [Violin](https://github.com/Strategic-Automation/violin) - AI-native pentest framework and Hermes agent profile/plugin for autonomous, human-in-the-loop offensive security (IDOR/SSRF/XSS triage, multi-stage agentic testing).
 
+
+## Offensive Security & Pentest Frameworks
+
+- [Violin](https://github.com/Strategic-Automation/violin) - AI-native pentest framework and Hermes agent profile/plugin for autonomous, human-in-the-loop offensive security (IDOR/SSRF/XSS triage, multi-stage agentic testing).
+
 http://www.vulnerabilityassessment.co.uk/Penetration%20Test.html  
 http://www.pentest-standard.org/index.php/Main_Page  
 http://projects.webappsec.org/w/page/13246978/Threat-Classification  

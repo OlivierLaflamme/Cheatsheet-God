@@ -69,7 +69,7 @@ A_Can_Of_Tuna
  [Root.me](https://www.root-me.org/)<br>
  [Penetration Testing Practice Lab / Vulnerable Apps/Systems ](https://www.amanhardikar.com/mindmaps/Practice.html)<br>
  [Vulhub](https://vulhub.org/)<br>
- [Vulapps](http://vulapps.evalbug.com/)<br>
+ [Vulapps](https://vulapps.evalbug.com/)<br>
  [Vulnspy](https://www.vulnspy.com/)<br>
  [Upload-Labs](https://github.com/c0ny1/upload-labs)<br>
  [TryHackMe](https://tryhackme.com/)<br>
@@ -385,6 +385,7 @@ Http://www.irongeek.com/i.php?page=videos/ettercapfiltervid1
 Http://spareclockcycles.org/2010/06/10/sergio-proxy-released/  
 ## TOOLS OSINT  
 http://www.edge-security.com/theHarvester.php  
+https://github.com/Xquik-dev/x-twitter-scraper
 Http://www.mavetju.org/unix/dnstracer-man.php  
 Http://www.paterva.com/web5/  
 ## Metadata  
